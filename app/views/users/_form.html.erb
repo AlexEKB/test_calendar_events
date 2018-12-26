@@ -3,8 +3,13 @@
   <%= render partial: 'partials/form_errors', locals: {model: @user} %>
 
   <div class="form-group">
-    <%= f.label :name %>
+    <%= f.label :Имя %>
     <%= f.text_field :first_name, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :Фамилия %>
+    <%= f.text_field :last_name, class: 'form-control' %>
   </div>
 
   <div class="form-group">
